@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarohi Sharma - Professional Video Editor & Content Creator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Authentication Check -->
+    <script>
+        // Check if user is authenticated
+        if (!sessionStorage.getItem('authenticated')) {
+            window.location.href = 'auth.html';
+        }
+    </script>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="IMG-20250806-WA0029.jpg" alt="Aarohi" class="logo-image">
+                <span>Aarohi</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Work</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hello, I'm <span class="highlight">Aarohi Sharma</span></h1>
+                <h2 class="hero-subtitle">Professional Video Editor & Content Creator</h2>
+                <p class="hero-description">
+                    I help creators turn content into engaging stories<br>
+                    Generated 500K+ views & helped clients grow their audience<br>
+                    DM "edit" to transform your videos into viral content
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#pricing" class="btn btn-secondary">See Packages</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="profile-image">
+                        <!-- Placeholder for AADI's photo -->
+                        <img src="IMG-20250806-WA0029.jpg" alt="Aarohi Sharma - Reels Editor" class="profile-photo">
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-icon" style="--delay: 0s">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 1s">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 2s">
+                            <i class="fas fa-film"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="gradient-overlay"></div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">500K+</div>
+                    <div class="stat-label">Views Generated</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5-6</div>
+                    <div class="stat-label">Figure Scaling</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>Passionate about helping creators tell their stories</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Professional Video Editor & Content Creator</h3>
+                    <p>
+                        I'm Aarohi Sharma, a professional video editor specializing in creating engaging content that captivates audiences. I've generated over 500K+ views for my clients and helped them build strong online presence through strategic video editing that drives engagement and growth.
+                    </p>
+                    <p>
+                        My approach focuses on creating compelling visual stories that resonate with diverse audiences. I understand what makes content viral and know exactly how to craft videos that drive engagement and build loyal followings. Every edit is designed with audience engagement in mind.
+                    </p>
+                    <div class="skills">
+                        <div class="skill-tag">Instagram Reels</div>
+                        <div class="skill-tag">YouTube Shorts</div>
+                        <div class="skill-tag">TikTok Videos</div>
+                        <div class="skill-tag">Social Media Content</div>
+                        <div class="skill-tag">Fast Delivery</div>
+                        <div class="skill-tag">Unlimited Revisions</div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="IMG-20250902-WA0047.jpg" alt="Aarohi Sharma - About Me" class="about-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>What I Offer</h2>
+                <p>Professional video editing services for content creators</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Social Media Video Editing</h3>
+                    <p>Transform your raw footage into engaging content that captivates viewers and grows your audience. Professional editing for all types of content.</p>
+                    <ul class="service-features">
+                        <li>High-energy content edits</li>
+                        <li>Before/after comparisons</li>
+                        <li>Testimonial videos</li>
+                        <li>Tutorial and educational content</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Reach</h3>
+                    <p>Working with international creators who want to expand their reach and connect with global audiences across different platforms.</p>
+                    <ul class="service-features">
+                        <li>Global market understanding</li>
+                        <li>Cross-cultural appeal</li>
+                        <li>Timezone-friendly delivery</li>
+                        <li>Multi-language content support</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Fast Delivery</h3>
+                    <p>Quick turnaround times without compromising quality. Get your content ready when you need it most.</p>
+                    <ul class="service-features">
+                        <li>24-48 hour delivery</li>
+                        <li>Rush orders available</li>
+                        <li>Consistent quality</li>
+                        <li>Reliable scheduling</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Engagement-Focused</h3>
+                    <p>Every edit is designed to maximize viewer engagement and retention. Strategic editing that drives audience growth and interaction.</p>
+                    <ul class="service-features">
+                        <li>Hook creation for maximum retention</li>
+                        <li>Engagement optimization</li>
+                        <li>Brand consistency</li>
+                        <li>Performance tracking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Showcase Section -->
+    <section class="portfolio-showcase">
+        <div class="container">
+            <div class="showcase-content">
+                <div class="showcase-text">
+                    <h2>Featured Success Story</h2>
+                    <h3>Content Creator Growth</h3>
+                    <p>Helped an international content creator scale from 10K to 100K+ followers through strategic video editing. The content generated massive engagement and built a loyal community of followers.</p>
+                    <div class="showcase-stats">
+                        <div class="showcase-stat">
+                            <span class="stat-number">500K+</span>
+                            <span class="stat-label">Views Generated</span>
+                        </div>
+                        <div class="showcase-stat">
+                            <span class="stat-number">10x</span>
+                            <span class="stat-label">Follower Growth</span>
+                        </div>
+                        <div class="showcase-stat">
+                            <span class="stat-number">5-6 Fig</span>
+                            <span class="stat-label">Revenue Scale</span>
+                        </div>
+                    </div>
+                    <div class="showcase-buttons">
+                        <a href="https://drive.google.com/drive/folders/1zFXOPH_9hOkFB2_IfOKNus6t3KVaj95I" target="_blank" class="btn btn-primary">View Client Work</a>
+                        <a href="https://www.instagram.com/editsby.aaro/" target="_blank" class="btn btn-secondary">Follow on Instagram</a>
+                    </div>
+                </div>
+                <div class="showcase-image">
+                    <div class="large-portfolio-image">
+                        <div class="video-thumbnail">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="video-overlay">
+                                <div class="video-info">
+                                    <h4>Client Success Reel</h4>
+                                    <p>From Views to Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client Work Gallery</h2>
+                <p>Real results for content creators across all niches</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="placeholder-video">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Lifestyle Content</h3>
+                            <p>Before & After Stories</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="placeholder-video">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Tutorial Videos</h3>
+                            <p>Educational Content</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="placeholder-video">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Client Success Stories</h3>
+                            <p>Testimonial Reels</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="placeholder-video">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Tips & Advice</h3>
+                            <p>Educational Content</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="placeholder-video">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Motivational Content</h3>
+                            <p>Inspiration & Drive</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="placeholder-video">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Live Sessions</h3>
+                            <p>Dynamic Content</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Investment Packages</h2>
+                <p>Choose the perfect package for your content creation needs</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter Package</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">500</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i>20 Edited Reels / month</li>
+                            <li><i class="fas fa-check"></i>3–4 Revisions per reel</li>
+                            <li><i class="fas fa-check"></i>Fast, clean delivery</li>
+                            <li><i class="fas fa-check"></i>Instagram-optimized format</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#contact" class="btn btn-secondary">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Best Value</div>
+                    <div class="pricing-header">
+                        <h3>Growth Package</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">650</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i>25 Edited Reels / month</li>
+                            <li><i class="fas fa-check"></i>Up to 8–10 Revisions per reel</li>
+                            <li><i class="fas fa-check"></i>Optional Content Calendar</li>
+                            <li><i class="fas fa-check"></i>Priority support</li>
+                            <li><i class="fas fa-check"></i>Basic scheduling support</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#contact" class="btn btn-primary">Choose Growth</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-badge elite">Recommended</div>
+                    <div class="pricing-header">
+                        <h3>Elite Package</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">800</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i>30 Edited Reels / month</li>
+                            <li><i class="fas fa-check"></i>Unlimited Revisions</li>
+                            <li><i class="fas fa-check"></i>Stress-free delivery</li>
+                            <li><i class="fas fa-check"></i>Multi-platform optimization</li>
+                            <li><i class="fas fa-check"></i>Strategy consultation</li>
+                            <li><i class="fas fa-check"></i>24-hour rush delivery</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#contact" class="btn btn-primary">Go Elite</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-note">
+                <p><strong>Perfect for:</strong> Content creators and influencers looking to grow their audience</p>
+                <p>All packages include: Professional editing, brand consistency, and engagement optimization</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client Success Stories</h2>
+                <p>Real feedback from content creators who grew their audience</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-video" onclick="openVideoModal('1hbLw_likbEicMgg2BseWRWjd1u0GOsTd', 'Zorgan', 'Amazing editing quality and fast delivery')">
+                    <div class="video-container">
+                        <div class="video-placeholder">
+                            <i class="fas fa-play"></i>
+                            <div class="video-overlay">
+                                <h4>Zorgan</h4>
+                                <p>"Amazing editing quality and fast delivery"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-video" onclick="openVideoModal('1pXlRF6tFv_3XTM0axlLYJkkHIQx8fap4', 'Parag Sir - Fitness Coach', 'Professional editing that converts')">
+                    <div class="video-container">
+                        <div class="video-placeholder">
+                            <i class="fas fa-play"></i>
+                            <div class="video-overlay">
+                                <h4>Parag Sir - Fitness Coach</h4>
+                                <p>"Professional editing that converts"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-video" onclick="openVideoModal('1RK5M0N5vDJvJ7gcWyAJr0uQDl9vDh5eJ', 'IG Coach - Creator Aadi', 'Helped scale my content strategy')">
+                    <div class="video-container">
+                        <div class="video-placeholder">
+                            <i class="fas fa-play"></i>
+                            <div class="video-overlay">
+                                <h4>IG Coach - Creator Aadi</h4>
+                                <p>"Helped scale my content strategy"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-video" onclick="openVideoModal('1_KXuktYtMGlWC7SqRkTKh1Ag_vlBvOUw', 'Anisha - Traveller', 'Creative edits that engage audience')">
+                    <div class="video-container">
+                        <div class="video-placeholder">
+                            <i class="fas fa-play"></i>
+                            <div class="video-overlay">
+                                <h4>Anisha - Traveller</h4>
+                                <p>"Creative edits that engage audience"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-video" onclick="openVideoModal('13KoqpYasaosKlV-8c6SR52ZGtMFHZQ91', 'Abhishek - Valeo Media', 'Outstanding video production quality')">
+                    <div class="video-container">
+                        <div class="video-placeholder">
+                            <i class="fas fa-play"></i>
+                            <div class="video-overlay">
+                                <h4>Abhishek - Valeo Media</h4>
+                                <p>"Outstanding video production quality"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="video-modal">
+        <div class="video-modal-content">
+            <span class="video-modal-close">&times;</span>
+            <div class="video-modal-header">
+                <h3 id="modalClientName"></h3>
+                <p id="modalClientQuote"></p>
+            </div>
+            <div class="video-modal-body">
+                <iframe id="modalVideoFrame" src="" allow="autoplay" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to start your video editing journey? Let's connect!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>Whether you need professional video editing services or want to improve your editing skills through coaching, I'm here to help you achieve your creative goals.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>editsbyaaro@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-instagram"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Instagram</h4>
+                                <p>@editsby.aaro</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Bihar, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Follow My Work</h4>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/editsby.aaro/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Package</option>
+                                <option value="starter">Starter Package - $500/month</option>
+                                <option value="growth">Growth Package - $650/month</option>
+                                <option value="elite">Elite Package - $800/month</option>
+                                <option value="consultation">Free Consultation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tell me about your fitness coaching business and goals..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="IMG-20250806-WA0029.jpg" alt="Aarohi" class="logo-image">
+                    <span>Aarohi</span>
+                </div>
+                <p>&copy; 2025 Aarohi Sharma. All rights reserved. Professional Video Editor & Content Creator.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
